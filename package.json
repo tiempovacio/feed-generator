@@ -1,0 +1,18 @@
+{
+  "name": "feed-generator",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Feed personalizado para Bluesky Social",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@atproto/api": "^0.8.0",
+    "express": "^4.21.2",
+    "franc": "^6.2.0"
+  }
+}

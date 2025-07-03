@@ -10,8 +10,8 @@ const agent = new BskyAgent({ service: 'https://bsky.social' })
 
 // Para pruebas, haz login con cuenta Bluesky válida (opcional)
 await agent.login({
-  identifier: 'holaafeed.bsky.social',
-  password: 'Vainilla2001@',
+  identifier: process.env.BSKY_IDENTIFIER,
+  password: process.env.BSKY_PASSWORD,
 })
 
 const authors = [
